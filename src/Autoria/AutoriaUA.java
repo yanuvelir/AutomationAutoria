@@ -187,7 +187,7 @@ public class AutoriaUA
 
         // ScrollUp
         jse.executeScript("window.scrollBy(0, -document.body.scrollHeight);");
-
+        System.out.println();
 
 
         driver.quit();
